@@ -9,8 +9,8 @@ public void setup()
 public void draw() 
 {   
 	background(0); 
-  strokeWeight(.2);
-	stroke(234,138,19);   
+  strokeWeight(.1);
+  stroke(255,54,71);
 	line(320,480,320,380);   
 	drawBranches(320,380,250,3*Math.PI/2);  
 } 
